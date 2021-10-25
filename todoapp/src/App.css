@@ -28,7 +28,7 @@ header {
 
 .inputForm input {
   width: 15rem;
-  height: 1.5rem;
+  height: 1.7rem;
   padding: 0.5rem;
   border: none;
 }
@@ -45,15 +45,19 @@ header {
 }
 
 .todo {
-  padding: 0.3rem;
+  padding: 0.4rem;
   background: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  margin: 0.4rem 0;
 }
 
 .icons .fas {
-  padding: 0 .1rem;
+  padding: 0 .2rem;
+}
+
+.todoText {
+  padding-left: .3rem;
 }
 

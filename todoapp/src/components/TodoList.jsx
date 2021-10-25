@@ -9,8 +9,17 @@ export const TodoList = () => {
             <span>something</span>
           </div>
           <div className="icons">
-            <i class="fas fa-check"></i>
-            <i class="fas fa-trash"></i>
+            <i className="fas fa-check"></i>
+            <i className="fas fa-trash"></i>
+          </div>
+        </div>
+        <div className="todo">
+          <div className="todoText">
+            <span>something</span>
+          </div>
+          <div className="icons">
+            <i className="fas fa-check"></i>
+            <i className="fas fa-trash"></i>
           </div>
         </div>
       </div>
