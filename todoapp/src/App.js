@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="body">
       <Title />
-      <InputForm setTaskList={setTaskList} taskList={taskList} />
-      <TodoList taskList={taskList} />
+      <InputForm taskList={taskList} setTaskList={setTaskList} />
+      <TodoList taskList={taskList} setTaskList={setTaskList} />
     </div>
   );
 }

@@ -6,7 +6,7 @@ export const InputForm = ({ taskList, setTaskList }) => {
 
   const addTask = (e) => {
     e.preventDefault();
-    if (inputText == "") {
+    if (inputText === "") {
       return;
     }
     // console.log("add task");
@@ -15,7 +15,9 @@ export const InputForm = ({ taskList, setTaskList }) => {
     setTaskList([
       ...taskList,
       {
+        id: taskList.length,
         text: inputText,
+        completed: false,
       },
     ]);
     // console.log(taskList);

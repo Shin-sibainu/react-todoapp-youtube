@@ -51,14 +51,19 @@ header {
   justify-content: center;
 }
 
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
 
 .icons .fa-check {
-  padding: .4rem .4rem;
+  padding: 0.487rem .5rem;
   background: rgb(83, 164, 195);
 }
 
 .icons .fa-trash {
-  padding: .4rem .4rem;
+  padding: 0.487rem .5rem;
   background: rgb(197, 70, 81);
 }
 
@@ -70,3 +75,6 @@ header {
 }
 
 
+button {
+  border: none;
+}
