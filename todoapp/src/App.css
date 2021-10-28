@@ -35,29 +35,38 @@ header {
 
 .inputForm .fas {
   position: absolute;
-  right: 27%;
+  right: 28%;
   top: 16%;
 }
 
 .todoList {
-  width: 25vw;
+  width: 100vw;
   margin: 2rem auto;
 }
 
 .todo {
-  padding: 0.4rem;
-  background: white;
+  margin: 0.4rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 0.4rem 0;
+  justify-content: center;
 }
 
-.icons .fas {
-  padding: 0 .2rem;
+
+.icons .fa-check {
+  padding: .4rem .4rem;
+  background: rgb(83, 164, 195);
+}
+
+.icons .fa-trash {
+  padding: .4rem .4rem;
+  background: rgb(197, 70, 81);
 }
 
 .todoText {
-  padding-left: .3rem;
+  min-width: 15rem;
+  max-height: 1.8rem;
+  padding: 0.3rem 4rem;
+  background: white;
 }
+
 
