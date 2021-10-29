@@ -33,10 +33,9 @@ header {
   border: none;
 }
 
-.inputForm .fas {
-  position: absolute;
-  right: 28%;
-  top: 16%;
+.inputForm button {
+  padding: 0.38rem 0.5rem;
+  background: rgb(243, 240, 84);
 }
 
 .todoList {

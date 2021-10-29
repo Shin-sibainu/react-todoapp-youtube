@@ -33,9 +33,9 @@ export const InputForm = ({ taskList, setTaskList }) => {
     <div className="inputForm">
       <form onSubmit={addTask}>
         <input type="text" onChange={handleChange} value={inputText} />
-        <a onClick={addTask}>
+        <button onClick={addTask}>
           <i className="fas fa-plus-square"></i>
-        </a>
+        </button>
       </form>
     </div>
   );
